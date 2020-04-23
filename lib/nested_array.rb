@@ -29,7 +29,7 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
   ]
-  sorted_produce = [produce[1].sort, produce[0].sort]
+  sorted_produce = [produce[0].sort, produce[1].sort]
   sorted_produce
 
   # Using Array literal syntax only, build another nested array that
